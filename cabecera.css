@@ -249,7 +249,8 @@ header {
 	box-shadow: 0 0 10px black;
 }
 #header-logo-diagonal img{
-	height: 87px;
+	height: 91px;
+    transform: rotate(6deg);
 }
 
 #header-ingresa-registrate .dropdown-backdrop{
