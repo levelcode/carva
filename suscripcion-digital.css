@@ -1,0 +1,13 @@
+.suscripcion-digital{
+	background-color: #ffffff;
+}
+
+.separador-titulo{
+	margin:0px;
+}
+
+.img-suscripcion{
+	max-height: 102px;
+}
+
+/* Quitar la clase small del elemento .suscripcion-digital*/
