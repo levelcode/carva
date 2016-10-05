@@ -1,0 +1,155 @@
+.fondo{
+	background-color:#eee;
+}
+
+.imagen{
+	/*
+	width:255px;
+	height:255px;
+	*/
+}
+
+.activo{
+	background-color:#ff9900;
+	border-top:1px solid #ff9900;
+	border-left:1px solid #ff9900;
+}
+.activo *, .activo:visited *{
+	color:#fff;
+	font-weight:bold;
+}
+/*
+.menu-areas-vertical{
+	background-color:#f6f6f6;
+	height:288px;
+	overflow:hidden;
+}
+*/
+
+.caja-publicidad-banner{
+	margin-top:5px;
+}
+
+.caja-publicidad-titulo{
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	height:36px;
+	margin-top:10px;
+}
+
+.rotabanner-titulo{
+	background: rgba(0, 0, 0, 0.5);
+	right:0px;
+	left:0px;
+	width:100%;
+	bottom:0px;
+	padding-bottom: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:10px;
+}
+.fondo-contenedor-gris{
+	background-color:#f6f6f6;
+}
+.publicidad-rotabanner img{
+	padding-bottom:15px;
+}
+
+.indicadores-rotabanner-horizontal{
+	bottom:0px;
+}
+
+.redondo-abajo-izq{
+	border-bottom-left-radius:20px
+}
+
+.redondo-abajo-der{
+	border-bottom-right-radius:20px
+}
+
+.redondo-arriba-izq{
+	border-top-left-radius:20px
+}
+
+.redondo-arriba-der{
+	border-top-right-radius:20px
+}
+.rotabanner-contenedor-pauta{
+	padding-left:0px;
+	margin-top:10px;
+	padding-left:15px;
+}
+
+#contenedor-mediakit img{
+	width: 100%;
+    max-width: 230px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu-areas-vertical{
+	background-color:#f6f6f6;
+	overflow:hidden;
+}
+
+.flecha-rotabanner{
+	width: 0;
+	height: 0;
+	border-top: solid transparent;
+	border-bottom: solid transparent;
+	border-top-width:18.6px;
+	border-bottom-width:18.6px;
+	border-left: 15px solid #ff9900;
+	top: 1px;
+	right: -14px;
+	position: absolute;
+}
+
+.contenedor-twitter .titulo-twitter{
+	font-size:1.5em;
+}
+
+@media  (min-width : 768px) {
+	.altura-rotabanner{
+		height:238.719px;
+	}
+	.contenedor-publicidad{
+		padding-left:0px;
+	}
+	.contenedor-img-principal{
+		padding-right:0px;
+	}
+	.caja-publicidad-banner{
+		border-right: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		margin-top:0px;
+	}
+	.contenedor-twitter{
+		padding-right:0px;
+	}
+}
+
+@media (min-width: 992px) {
+	.altura-rotabanner{
+		height:238.766px;
+	}
+	.contenedor-img-principal{
+		padding-left:0px;
+	}
+	.area{
+		height:48px;
+	}
+}
+
+@media (min-width: 1200px ) {
+	.altura-rotabanner{
+		height:288px;
+	}
+	.area{
+		height:36px;
+	}
+}
+
