@@ -28,14 +28,17 @@
 
 .caja-publicidad-banner{
 	margin-top:5px;
+	border-radius:0px 0px 5px 0px;
 }
 
 .caja-publicidad-titulo{
+	/*
 	border-right: 1px solid #ccc;
 	border-top: 1px solid #ccc;
+	*/
 	border-left: 1px solid #ccc;
-	height: 37px;
-	margin-top: 30px;
+	height: 36px;
+	/*margin-top: 30px;*/
 	color: gray;
 	font-weight: 400;
 }
@@ -61,7 +64,7 @@
 .indicadores-rotabanner-horizontal{
 	bottom:0px;
 }
-
+/*
 .redondo-abajo-izq{
 	border-bottom-left-radius:20px
 }
@@ -77,6 +80,7 @@
 .redondo-arriba-der{
 	border-top-right-radius:20px
 }
+*/
 .rotabanner-contenedor-pauta{
 	padding-left:0px;
 	margin-top:10px;
@@ -109,11 +113,39 @@
 	position: absolute;
 }
 
+.contenedor-rotabanner{
+	margin-top:30px;
+}
+
 .contenedor-twitter .titulo-twitter{
 	font-size:1.5em;
 }
+
+.cuerpo-twitter{
+	border:1px solid #ccc;
+	border-radius: 5px 5px 5px 5px;
+}
+
 #articulo-destacado h1{
 	text-align: left;
+}
+
+.titulo-twitter{
+	background-color: #016AAB;
+    color: white;
+    padding: 5px;
+}
+
+.titulo-destacados{
+	background-color: #016AAB;
+    color: white;
+    padding: 5px;
+}
+
+.panel-default {
+    min-height: 380px;
+    /*margin: 30px 0px 0px 10px;*/
+    background-color: white;
 }
 
 @media  (min-width : 768px) {
@@ -127,13 +159,23 @@
 		padding-right:0px;
 	}
 	.caja-publicidad-banner{
+		/*
 		border-right: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
+		*/
 		border-left: 1px solid #ccc;
+		
 		margin-top:0px;
 	}
 	.contenedor-twitter{
 		padding-right:0px;
+	}
+	.contenedor-rotabanner{
+		margin-top:30px;
+		overflow: hidden;
+		
+		border: 1px solid #ccc;
+		border-radius: 5px 5px 5px 5px;
 	}
 }
 
@@ -157,4 +199,6 @@
 		height:36px;
 	}
 }
+
+
 
