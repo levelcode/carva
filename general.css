@@ -320,11 +320,8 @@ input::-webkit-inner-spin-button {
 }
 /*Unificar alto cajas panel-default */
 .panel-default {
-    min-height: 380px;
-    margin: 30px 0px 0px 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px -3px #cccccc;
-    background-color: white;
 }
 /*Padding de caja para codigo de país en un teléfono*/
 .gen-codigo-pais{
