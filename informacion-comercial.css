@@ -1,0 +1,88 @@
+.contenido-titulo{
+	margin-top:0px;
+}
+#dropdown-menu-informacion-cliente{
+	width: 100%;
+	min-width: 140px;
+	margin-top: 10px;
+	box-shadow: 6px 6px 5px #A4A4A4;
+}
+#dropdown-menu-informacion-cliente li{
+	margin-bottom: -1px;
+    border-radius: 0px;
+}
+.dropdown-menu li .linksCompartir{
+	padding: 0px;
+}
+.link-telefono-movil:last-child{
+	margin-bottom: -1px;
+}
+#solicitarInfo{
+	display: inline-block;
+}
+#escribeleAlAutor{
+	display: inline-block;
+}
+#dropdown-menu-informacion-cliente #li-contacte-proveedor{
+	padding: 0px;
+}
+#sky-scrapper-informacion-comercial div .list-group-item:first-child{
+	margin-bottom: -1px;
+	border-radius: 0px;
+}
+
+#sky-scrapper-informacion-comercial div .list-group-item, #informacion-comercial-cliente-movil .list-group-item{
+	border-left: none;
+	border-right: none;
+	font-size: 14px;
+	color: #004b89;
+	padding: 14px 11px;
+	line-height: 19px;
+	vertical-align: middle;
+}
+
+#informacion-comercial-cliente-movil div .list-group-item:first-child{
+    margin-bottom: -1px;
+}
+@media ( min-width : 768px) {
+	#sky-scrapper-informacion-comercial{
+		width: 160px;
+	}
+}
+@media ( min-width : 992px) {
+	#sky-scrapper-informacion-comercial{
+		width: 210px;
+	}
+}
+@media ( min-width : 1200px) {
+	#sky-scrapper-informacion-comercial{
+		width: 260px;
+	}
+}
+#solicitar-mas-info-link{
+	color: white;	
+}
+#sky-scrapper-informacion-comercial, #informacion-comercial-cliente-movil{
+	border-radius: 9px;overflow: hidden;box-shadow: 0 0 10px -3px;
+}
+
+#sky-scrapper-informacion-comercial .fa-globe,#sky-scrapper-informacion-comercial .fa-phone, #sky-scrapper-informacion-comercial .fa-facebook-square, .fa-youtube-play, #sky-scrapper-informacion-comercial .fa-twitter-square,#sky-scrapper-informacion-comercial .fa-file-text-o, .fa-users, #sky-scrapper-informacion-comercial .fa-print{
+	background-color: orange;
+	border-radius: 15px;
+	color: white;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+}
+#informacion-comercial-cliente-movil .fa-globe,#informacion-comercial-cliente-movil .fa-phone, #informacion-comercial-cliente-movil .fa-facebook-square, .fa-youtube-play, #informacion-comercial-cliente-movil .fa-twitter-square,#informacion-comercial-cliente-movil .fa-file-text-o, .fa-users, #informacion-comercial-cliente-movil .fa-print{
+	background-color: orange;
+	border-radius: 15px;
+	color: white;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+}

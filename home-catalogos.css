@@ -1,0 +1,63 @@
+#texto-listado-categorias{
+	display: inline-block;
+    margin-right: 15px;
+}
+#jumbotron-categorias{
+	padding-left: 15px;
+}
+.catalogo-de-productos{
+	color: #F19100;
+}
+#listado-categorias{
+	display: inline-block;
+   	width: 100%;
+}
+.panel-proveedor img{
+	width: 100%;
+	padding: 10px;
+	max-width: 137px;
+}
+@media (max-width: 768px) {
+	.panel-contenido {
+	    min-width: 100% !important;
+	}
+	.panel-img {
+	    float: left;
+	    border-radius: 10px;
+	    height: 130px;
+	    min-width: 140px;
+	    min-height: 140px;
+	    margin-left: calc(50% - 71px);
+	    margin-bottom: 23px;
+	    margin-top: 0px;
+	    line-height: 140px;
+	    text-align: center;
+	    box-shadow: 0 0 10px -3px;
+	}
+}
+#listado-categorias{
+	display: inline-block;
+	width: 40%;
+}
+.panel-img{
+	float: left;
+	border-radius: 10px;
+	height: 130px;
+	min-width: 140px;
+	min-height: 140px;
+	margin-right: 67px;
+	margin-top: 0px;
+	line-height: 140px;
+	text-align: center;
+	box-shadow: 0 0 10px -3px;
+}
+.panel-contenido{
+	float: left;
+	max-width: 50%;
+}	
+.panel-proveedor{
+	margin: 20px 20px 20px 26px;
+	min-height: 246px;
+}
+
+/* Colocar el div hijo de row .panel-proveedor como  "col-xs-12 col-sm-12" */

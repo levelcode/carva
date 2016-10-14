@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+.page-header {
+	margin: 10px 0 20px;
+}
+
+.menu-filtro {
+	background: linear-gradient(#cecece, #ffffff);
+}
+
+.menu-filtro div {
+	padding-top: 0.25em;
+}
+
+#cuerpoArticulo select {
+	width: 100%;
+}
+
+.resumen small {
+	color: #000000;
+	text-decoration: none;
+}
+
+.resumen a {
+	text-decoration: none;
+}
+
+.producto-titulo strong {
+	text-decoration: underline;
+}
+
+.badge {
+	background-color: #FFFFFF;
+	color: #337ab7;
+	vertical-align: bottom;
+}
+
+.borde-contenedor {
+	border: 1px solid #ddd;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+.contenido-popup{
+    margin-bottom: 0.5em;
+}
+
+.imagen-popup{
+    margin-bottom: 0.5em;    
+}
+
+.imagen-popup img{
+	max-width: 180px;
+}
+.resumen{
+	width: 86%;
+}
+.gen-img-lista {
+    width: 100px;
+    box-shadow: 0 0 10px -3px black;
+    border-radius: 10px;
+    margin: 20px 0 20px 0px;
+}
+.gen-checkbox-seleccion {
+    right: 28px;
+    top: 40%;
+    position: absolute;
+}
+.producto-titulo{
+	width:86%;
+}
+

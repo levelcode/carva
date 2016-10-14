@@ -1,0 +1,38 @@
+
+.div-filtros{box-shadow: 0 0 10px -3px black;border-radius: 10px;}
+
+.calendarios
+{
+	background-color: #fff !important;
+}
+
+.span-glyphicon-calendario{
+	cursor: pointer;
+}
+
+.img-logo-evento{
+	margin:auto;
+	width: 120px;
+	height: 120px;
+	
+}
+
+.link-display-none{
+	display: none;
+}
+
+.informacion-eventos p, .informacion-eventos p label{
+	margin-bottom: 0;
+}
+.informacion-eventos img{
+	border: none;
+	overflow: auto;
+	box-shadow: 0px 0px 10px -3px black;
+	border-radius: 10px;
+	padding: 0px;
+	margin: 0 6px 2px 0px;
+	width: 100px;
+}
+.media{
+	overflow: visible;
+}

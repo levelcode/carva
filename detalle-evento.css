@@ -1,0 +1,8 @@
+.logo-evento{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: none;
+	box-shadow: 0 0 10px -3px black;
+	border-radius: 10px;
+}

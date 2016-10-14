@@ -1,0 +1,74 @@
+<div class="div-filtros b2b-padding-2">
+   <form id="j_idt140" name="j_idt140" method="post" action="/eventos/home-eventos.xhtml" enctype="application/x-www-form-urlencoded">
+      <input type="hidden" name="j_idt140" value="j_idt140">
+      <input id="hidden-fecha-desde" type="hidden" name="hidden-fecha-desde" value="13-10-2016"><a id="btn-fecha-desde" href="#" onclick="mojarra.ab(this,event,'click','@this hidden-fecha-desde','select-area-tematica select-pais',{'onevent':modalCargando});return false" class="link-display-none"></a><input id="hidden-fecha-hasta" type="hidden" name="hidden-fecha-hasta" value="13-10-2018"><a id="btn-fecha-hasta" href="#" onclick="mojarra.ab(this,event,'click','@this hidden-fecha-hasta','select-area-tematica select-pais',{'onevent':modalCargando});return false" class="link-display-none"></a>
+      <div class="row">
+         <div class="col-sm-9 col-lg-9">
+            <div class="form-group form-group-sm">
+               <label class="small" for="palabras-clave-input">Palabras claves</label>
+               <input id="palabras-clave-input" name="palabras-clave-input" value="" type="text" class="form-control">
+            </div>
+         </div>
+         <div class="col-sm-3 col-lg-3 text-center">
+            <input id="j_idt151" name="j_idt151" value="Buscar" onclick="mojarra.ab(this,event,'click','select-area-tematica select-pais palabras-clave-input','cuerpo-resultados',{'onevent':modalCargando});return false" type="submit" class="btn btn-sm btn-primary">
+         </div>
+         <div class="col-sm-4 col-lg-3">
+            <div class="form-group form-group-sm">
+               <label class="small" for="fecha-desde">Desde</label>
+               <div class="input-group gen-grupo-addon-der"><input id="fecha-desde" type="text" name="fecha-desde" value="13-10-2016" class="form-control calendarios calendarios-desde hasDatepicker" onchange="submmitFechaDesde()" readonly="readonly">
+                  <span class="input-group-addon span-glyphicon-calendario trigger-desde" id="calendar-addon-desde">
+                  <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4 col-lg-3">
+            <div class="form-group form-group-sm">
+               <label class="small" for="fecha-hasta">Hasta</label>
+               <div class="input-group gen-grupo-addon-der"><input id="fecha-hasta" type="text" name="fecha-hasta" value="13-10-2018" class="form-control calendarios calendarios-hasta hasDatepicker" onchange="submmitFechaHasta()" readonly="readonly">
+                  <span class="input-group-addon span-glyphicon-calendario trigger-hasta" id="calendar-addon-hasta">
+                  <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4 col-lg-3">
+            <div class="form-group form-group-sm">
+               <label class="small" for="select-area-tematica">Área temática</label>
+               <select id="select-area-tematica" name="select-area-tematica" class="form-control" size="1" onchange="mojarra.ab(this,event,'change','@this','select-pais',{'onevent':modalCargando})">
+                  <option value="">Todos</option>
+                  <option value="3740000|Actualidad industrial|3600000|1">Actualidad industrial</option>
+                  <option value="3600500|Cumbre de Envases 2017|3600000|1">Cumbre de Envases 2017</option>
+                  <option value="3600400|Feria K 2016|3600000|1">Feria K 2016</option>
+                  <option value="3610000|Inyección|3600000|1">Inyección</option>
+                  <option value="3690000|Materiales|3600000|1">Materiales</option>
+                  <option value="3720000|Mercados: Empaques|3600000|1">Mercados: Empaques</option>
+                  <option value="3680000|Moldes y herramientas|3600000|1">Moldes y herramientas</option>
+                  <option value="3600200|Plastimagen 2016|3600000|1">Plastimagen 2016</option>
+                  <option value="3700000|Reciclaje y Sostenibilidad|3600000|1">Reciclaje y Sostenibilidad</option>
+               </select>
+            </div>
+         </div>
+         <div class="col-sm-4 col-lg-3">
+            <div class="form-group form-group-sm">
+               <label class="small" for="select-pais">País</label>
+               <select id="select-pais" name="select-pais" class="form-control" size="1" onchange="mojarra.ab(this,event,'change','@this',0,{'onevent':modalCargando})">
+                  <option value="" selected="selected">Todos</option>
+                  <option value="DE">Alemania</option>
+                  <option value="AT">Austria</option>
+                  <option value="BR">Brasil</option>
+                  <option value="CN">China (República Popular China)</option>
+                  <option value="CO">Colombia</option>
+                  <option value="ES">España</option>
+                  <option value="US">Estados Unidos</option>
+                  <option value="IN">India</option>
+                  <option value="ID">Indonesia</option>
+                  <option value="IT">Italia</option>
+                  <option value="MX">México</option>
+               </select>
+            </div>
+         </div>
+      </div>
+      <input type="hidden" name="javax.faces.ViewState" value="Yxl192ooiEsKxQ6E4hH3CcdrNUH/wrwKC3YkiwaNiVMn+hGWq/qqjFySzKwyEnMq54q9rzIU6k7zBOVdFyJISo8AKeua5+5nRcMpVS6vFJqZ3nnHhjES9oLsKiuE2HhiZ/ZvtJFv57zDA7AZqmxk6ZTuBGCXXa+THwP6K5AsTT/vNN4XRnxV7eBBTH3mL5KQBbpImxN0Of/S8x7uAJ20VEROGul/wgFfPm9org6duxVNU1XrMH/2r4FDbCLoJvfWXC8CeUMAMk1nvgug8dOzeikN/OOgA2tGgRkjwHMoKI1THX4Jv7v5uXsJgjzRVPXZEtY2OxUbkhghuSX46VGF2Tt6CUvhst0Ej6+u4KWm6nGUKRnKLf5W9cQa8Y1BkCksm21LfHSRpAIkfne5HEhp7Zg5nSWGjIBNwYy2iSyiZygxB5SnhBegrZv0zHDFYvH5OVZQVmuc0z2cUROXrZs5D5ZVJT/2gt1lNH0E3Ul63CFupIn4o1dHsPeerjo3x8eihHkqMqcaeGfw8tRLyjT1CWCHGZhxXMN+PGgW9CAsn9ylvSB398+m4ljJLrqi2WR0hqdfRmkzguuPVbv+RDBN7CWJG4ULQyy3d6ind8+5LjVlnraTIt3e87DZZ9ZBWsRg5vGMXT2H/W9nEr5r+Qj4yeUjoYh1L8Y2dZVZV35oFwV2BcFjdYkPLVpq2oMBDRYxpRIL1z1rGLBHiq/eWbxPk7wO7EDJ/c0vzCIC2F2iGJa12IxkQD8owroSmHNg3bM8RTFQr4xsZx9FJY1ZGa217oqw3K2RjdfnAYHzCY88bGNzlvcFAKIy/gwHZTLgD6cAfqzWA89agAmd8UqpULUUJTVTfnhqpDAHiGmdKwWSSrlWzn8J/LkUwBa38t6VRrnd8Tc/XFRCuVkr1XYv+ZlXWMC8QgBzP00UpNqiz4ONf4letkjfUG1B3ARL1KV6wL7ywvr1ZL6Dvet8iA/4coaS1OD2dTVnBN59tn5sej4GbxfmnvdrDMJiKajtnXncrr4VwbboCr9N6eFPaPTX9FfQO/pTVNZDqoXdZaJklbVVZejKOoPfTFneZAqPRH5L8tycRxrd5e3+ueNZOpaanIliLG1U6o4HSAv7VSTcxi+zwADFpy4j4VtWBMDUzzJe79XJDd1R2RwrEP9ap4dnzhX7TVRIGQ1SkRsjL1A0YALw6JM=" autocomplete="off">
+   </form>
+</div>

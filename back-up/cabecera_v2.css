@@ -131,7 +131,7 @@ header {
 	font-size: 1.3em;
 }
 
-#header-ingresa-registrate div {
+#header-ingresa-registrate div:nth-child(1) {
 	background-color: white;
 	color: #154488;
 	padding: 5px 15px;
@@ -168,7 +168,12 @@ header {
 }
 
 #header-ingresa-dropdown{
-	padding: 5px;	
+	padding: 5px;
+	margin-top: -12px;
+	margin-right: -1px;
+	border-top: none;
+	width: 264px;
+	border-radius: 0px 0px 10px 10px;
 }
 #header-ingresa-dropdown input{
 	display: block;
@@ -249,15 +254,12 @@ header {
 	box-shadow: 0 0 10px black;
 }
 #header-logo-diagonal img{
-	height: 87px;
+	height: 91px;
+    transform: rotate(6deg);
 }
 
 #header-ingresa-registrate .dropdown-backdrop{
 	display:none;
-}
-
-#menu-usuario{
-	text-align:center;
 }
 
 #menu-usuario .nav-divider{
@@ -283,9 +285,8 @@ header {
 {
 	display: block;
 	text-align: center;
-	/*max-width: 930px;*/
+	max-width: 930px;
 	float: none;
-	/*width: 100%;*/
 	min-height: 53px;
 }
 .nav.navbar-nav.navbar-right.hidden-xs

@@ -1,4 +1,15 @@
-/*Arregla corrimiento a la derecha del menú cuando este está fijo y se abre un modal*/
+/*Arregla corrimiento a la derecha del menÃº cuando este estÃ¡ fijo y se abre un modal*/
+/*
+@font-face {
+    font-family: fuente;
+    src: url(/recursos/css/fuentes/LiberationSans-Regular.ttf);
+}
+
+body{
+	font-family: fuente;
+}
+*/
+
 body.modal-open {
   overflow: inherit;
   padding-right: 0 !important;
@@ -82,9 +93,9 @@ a:hover{
     border-color: #eee;
 }
 .gen-hr-gris{
-	margin-top: 10px;
-    margin-bottom: 10px;
-    border-color: #eee;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: #fff;
 }
 .gen-hr-gris-2{
 	margin-top: 10px;
@@ -145,7 +156,7 @@ input::-webkit-inner-spin-button {
     background-color: #016AAB;
     color: white;
     padding: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .gen-pestana{
@@ -267,13 +278,14 @@ input::-webkit-inner-spin-button {
     left: 0;
     z-index: 5;
 }
+/*
 .gen-pestana-izq{
 	border-top-left-radius: 3px;
 }
 .gen-pestana-der{
 	border-top-right-radius: 3px;
 }
-
+*/
 #tabs .gen-pestana{
 	border-left-color:#ddd;
 	border-right-color:#ddd;
@@ -302,7 +314,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-/*Usado en registro y actualziación de datos en guía de proveedores*/
+/*Usado en registro y actualziaciÃ³n de datos en guÃ­a de proveedores*/
 .gen-borde-datafield{
 	border: solid 1px #ccc;
 	border-radius: 10px;
@@ -318,16 +330,17 @@ input::-webkit-inner-spin-button {
 	border-radius: 5px 5px 0px 0px;
 	border-bottom: none;
 }
-/*Unificar alto cajas panel-default */
+Unificar alto cajas panel-default 
 .panel-default {
     border-radius: 10px;
     box-shadow: 0 0 10px -3px #cccccc;
 }
-/*Padding de caja para codigo de país en un teléfono*/
+
+/*Padding de caja para codigo de paÃ­s en un telÃ©fono*/
 .gen-codigo-pais{
 	padding-right:2px
 }
-/*Padding de caja para codigo de área en un teléfono*/
+/*Padding de caja para codigo de Ã¡rea en un telÃ©fono*/
 .gen-codigo-area{
 	padding-left:2px
 }
@@ -348,4 +361,65 @@ input::-webkit-inner-spin-button {
 		position: absolute;
 	}
 }
+/* Busqueda */
 
+#cuerpo-resultados .gen-hr-gris {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #fff;
+}
+
+#cuerpo-resultados .gen-paginador-centrado {
+    vertical-align: middle;
+    padding: 20px;
+}
+
+#tabs .gen-activo {
+    color: #a2a2a2;
+    background-color: #FDFDFD;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+#tabs .gen-pestana {
+    border-left-color: #ddd;
+    border-right-color: #ddd;
+    border-top-color: #ddd;
+    border-radius: 10px 10px 0 0;
+}
+
+.pagination-sm>li:first-child>a, .pagination-sm>li:first-child>span {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+    background-color: #c5c5c5;
+}
+.pagination-sm>li:last-child>a, .pagination-sm>li:last-child>span {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    background-color: orange;
+}
+.pagination-sm>li a, .pagination-sm>li span {
+    border-radius: 15px !important;
+    width: 30px;
+    height: 30px;
+    margin: 0px 2px;
+    text-align: center;
+    box-shadow: 0 0 10px -3px;
+    padding: 5px;
+}
+/*Tema Internas*/
+.gen-titulo-separador .gen-badge-blanco {
+    color: white;
+    background-color: orange;
+    text-shadow: 0px 0px 5px #895900;
+}
+
+.panel-collapse .btn-default {
+	transition: all .2s ease-in-out;
+	margin: 14px 0px 3px 0px;
+}
+.panel-collapse .btn-default:hover {
+	transform: scale(1.2); 
+}
