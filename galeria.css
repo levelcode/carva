@@ -9,14 +9,16 @@
 #galeria-boton-izq, #galeria-boton-der{
 	max-height:50px;
 	background-image:none;
+	color: white;
 }
 #btn-flecha-izq, #btn-flecha-der{
-	color:#016AAB;
-	margin-left:-22px;
-	margin-right:-22px;
+	color: white;
+	margin-left: 18px;
+	margin-right: 18px;
 }
 #galeria-imagenes, #galeria-videos{
-	max-height:50px;
+	max-height: 57px;
+	margin-top: 7px;
 }
 
 .galeria-miniaturas img{
