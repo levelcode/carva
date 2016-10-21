@@ -95,7 +95,7 @@ a:hover{
 .gen-hr-gris{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-color: #fff;
+	border-color: #eee;
 }
 .gen-hr-gris-2{
 	margin-top: 10px;
@@ -344,6 +344,11 @@ Unificar alto cajas panel-default
 .gen-codigo-area{
 	padding-left:2px
 }
+
+.g-recaptcha>div{
+	margin: auto;
+}
+
 @media ( min-width : 768px){
 	.gen-caja-datos{
 		margin-left:10px;
@@ -373,6 +378,15 @@ Unificar alto cajas panel-default
     vertical-align: middle;
     padding: 20px;
 }
+#cuerpo-resultados img{
+	width: 100px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 10px -3px black;
+}
+#cuerpo-resultados .media{
+	overflow:visible;
+}
 
 #tabs .gen-activo {
     color: #a2a2a2;
@@ -388,13 +402,7 @@ Unificar alto cajas panel-default
     border-radius: 10px 10px 0 0;
 }
 
-.pagination-sm>li:first-child>a, .pagination-sm>li:first-child>span {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    color: white;
-    background-color: #c5c5c5;
-}
-.pagination-sm>li:last-child>a, .pagination-sm>li:last-child>span {
+.pagination-sm>li:last-child>a, .pagination-sm>li:last-child>span, .pagination-sm>li:first-child>a, .pagination-sm>li:first-child>span{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     color: white;
@@ -409,11 +417,20 @@ Unificar alto cajas panel-default
     box-shadow: 0 0 10px -3px;
     padding: 5px;
 }
+.pagination-sm .disabled a{
+    background-color: #c5c5c5 !important;
+    
+}
+
+.pagination-sm .disabled a:hover, .pagination-sm .disabled span:hover{
+	background-color:white;
+}
 /*Tema Internas*/
 .gen-titulo-separador .gen-badge-blanco {
     color: white;
-    background-color: orange;
+    background-color: #2290c1;
     text-shadow: 0px 0px 5px #895900;
+    box-shadow: 0 0 10px -3px black;
 }
 
 .panel-collapse .btn-default {

@@ -1,0 +1,17 @@
+a.list-group-item.hijos{
+	color:#337ab7;
+}
+
+.hijos{
+	border-top:0;
+	border-bottom:0;
+}
+
+a.list-group-item:active {
+    color: blue;
+}
+
+.borde-contenedor {
+	margin-bottom: 30px;
+	padding: 0.5em;
+}

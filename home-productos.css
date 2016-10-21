@@ -72,4 +72,7 @@
 .producto-titulo{
 	width:86%;
 }
+.media-left, .media>.pull-left {
+    padding-right: 30px;
+}
 

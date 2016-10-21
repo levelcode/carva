@@ -56,8 +56,7 @@
 	max-width: 50%;
 }	
 .panel-proveedor{
-	margin: 20px 20px 20px 26px;
-	min-height: 246px;
+	margin: 30px 20px 30px 26px;
 }
 
 /* Colocar el div hijo de row .panel-proveedor como  "col-xs-12 col-sm-12" */

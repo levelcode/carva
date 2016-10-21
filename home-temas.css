@@ -1,0 +1,70 @@
+#contenedor-listado-areas-tematicas{
+	max-height: 534px;
+	overflow-y: scroll;
+	box-shadow: 0px 0px 11px -5px black;
+}
+#listado-areas-movil{
+	width: 100%;
+	max-height: 260px;	
+    overflow: scroll;
+}
+#dropdown-areas-movil{
+	width: 100%;
+}
+.span-area-tematica{
+	display:block;
+	padding: 10px 15px;
+}
+#contenedor-listado-areas-tematicas .activo{
+	background-color: #F19100;
+}
+#contenedor-listado-areas-tematicas .activo a{
+	color: #fff;
+}
+.cantidad-archivos{
+	color: #777;
+}
+.hr-naranja{
+    border-color: #F19100;
+    border-width: 2px;
+}
+#contenido-temas{
+	text-align: center;
+	margin-top: 0px;
+}
+.contenedor-iconos .icono{
+	font-size: 2.5em;
+}
+.contenedor-iconos{
+	height: 120px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: solid 1px #ddd;
+	border-radius: 10px;
+	padding: 20px;
+}
+.descripcion-icono{
+	height: 40px;
+}
+#jumbotron-categorias{
+}
+
+@media ( min-width : 768px) {
+	.contenedor-iconos{
+		height: 150px;
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		border-color: #ddd;
+		border: solid 1px #ddd;
+		border-radius: 10px;
+		margin: 10px;
+		padding: 10px;
+	}
+}
+
+.div-hr-gris-2 {
+	margin-bottom:10px;
+}
+
