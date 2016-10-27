@@ -1,14 +1,16 @@
 /* codigo coctel */
-
+/*
 #cuerpoArticulo{
 	padding-left: 5%;
 	margin:0px;
 }
+*/
 
 #cuerpo {
     overflow-x: hidden;
-    padding: 0px;
+    /*padding: 0px;*/
 }
+
 
 #otras-noticias-cuerpo img{
 	height: 100px;
