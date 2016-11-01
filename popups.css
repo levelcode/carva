@@ -1,0 +1,12 @@
+body{
+	background-color: #fff;
+	max-width: 520px;
+	margin: 0 auto;
+}
+
+.g-recaptcha>div{
+	margin:auto;
+}
+#forma-suscripcion label{
+	color:#154488
+}

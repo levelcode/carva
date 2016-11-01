@@ -24,12 +24,17 @@
 	border-radius: 5px;
 }
 
-#footer-recomendados-contenido {
+ul#footer-recomendados-contenido {
+	list-style-position: outisde;
 	margin-top: 1em;
 	min-height: 170px;
-	margin-left: 2em;
+	margin-left: 3em;
 	padding: 10px 0 0 20px;
 	list-style-image: url('/recursos/imagenes/plantilla/item.png');
+}
+
+ul, ol{
+	list-style-position: outside;
 }
 
 #footer-mas-leidos {
@@ -52,15 +57,16 @@
 }
 
 #footer-mas-leidos-contenido {
+	list-style-position: outisde;
 	margin-top: 1em;
 	min-height: 170px;
-	margin-left: 2em;
+	margin-left: 3em;
 	padding: 10px 0 0 20px;
 	list-style-image: url('/recursos/imagenes/plantilla/item.png');
 }
 
 .footer-borde-logo-xs {
-	border-right: solid 1px #ccc;
+	/*border-right: solid 1px #ccc;*/
 }
 
 #footer-logo-movil {
@@ -151,11 +157,10 @@
 	}
 	#footer-menu .row>div {
 		height: 50px;
-		padding-top: 5px;
-		padding-bottom: 5px;
 		border-bottom: none;
 		border-right: 1px solid white;
 		display: table;
+		padding: 5px 4px;
 	}
 	#footer-menu .row>div:last-child {
 		border-right: none;
@@ -189,11 +194,10 @@
 	}
 	#footer-menu .row>div {
 		height: 50px;
-		padding-top: 5px;
-		padding-bottom: 5px;
 		border-bottom: none;
 		border-right: 1px solid white;
 		display: table;
+		padding: 5px 4px;
 	}
 	#footer-menu .row>div:last-child {
 		border-right: none;

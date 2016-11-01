@@ -65,23 +65,19 @@
     margin: 20px 0 20px 0px;
 }
 
-.gen-checkbox-seleccion {
-    right: 28px;
-    top: 40%;
-}
-
 .producto-titulo{
 	width:86%;
 }
 .media-left, .media>.pull-left {
     padding-right: 30px;
 }
-
-@media ( min-width : 768px) {
-	.gen-checkbox-seleccion {
-    	right: 28px;
-    	top: 40%;
-    	position:absolute;
-	}
+.div-contenedor-filtros{
+	border-radius: 10px;
+	box-shadow: 0 0 10px -3px black;
+	padding: 10px;
+}
+#form-productos div:nth-child(1)  {
+	color: #154488;
+	font-weight: 600;
 }
 

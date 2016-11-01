@@ -1,0 +1,25 @@
+.img-revista-ultima{
+	width: 150px;
+	height: auto;
+}
+
+.img-revista{
+	width:200px;
+	height:250px;
+}
+
+.texto-edicion-actual{
+	line-height:1.8em;
+}
+.panel-default {
+	background: white;	
+	padding: 17px;
+}
+@media ( min-width : 768px){
+	.img-revista-ultima {
+		width: 250px;
+		height: auto;
+		box-shadow: 0 0 10px -3px black;
+		margin: 3px;
+	}
+}

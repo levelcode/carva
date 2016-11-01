@@ -1,8 +1,25 @@
 .logo-evento{
 	width: 150px;
 	height: 150px;
-	float: left;
 	border: none;
 	box-shadow: 0 0 10px -3px black;
 	border-radius: 10px;
+	float: left;
+}
+.contenedor-informacion-contacto{
+	padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -3px black;
+    margin-bottom: 10px;
+}
+.contenedor-informacion-contacto span {
+	color:#154488;
+}
+.cuerpo-contenido{
+	float: left;
+	width: 50%;
+}
+.lugar, .organizador, .fecha,.contacto{
+	float:left;
+	min-width:200px;
 }

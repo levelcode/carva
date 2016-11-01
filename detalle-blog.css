@@ -1,0 +1,91 @@
+#foto-bloguero {
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px -3px black;
+    border: solid 4px white;
+}
+#descripcion-bloguero {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -3px black;
+    margin: 20px 0px;
+    padding: 15px;
+}
+.posts {
+    background-color: #016aab
+}
+.descripcion-bloguero-jumbotron {
+    min-height: 150px
+}
+#ul-posts {
+    max-height: 450px;
+    overflow: auto;
+    margin-bottom: 5px
+}
+#ul-posts li:not(.disabled):hover {
+    background-color: #ebf3f5;
+    color: #000
+}
+#cantidad-posts {
+    color: #337ab7;
+    background-color: #fff
+}
+.badge-comentarios {
+    font-size: smaller;
+    background-color: #777
+}
+.posts-titulo-a:hover {
+    text-decoration: none
+}
+.fecha-y-comentarios-blogs {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: .8em;
+    line-height: .5;
+    color: #777;
+    display: block
+}
+#titulo-posts-movil {
+    margin-top: 0
+}
+#titulo-posts-movil a {
+    color: #fff
+}
+.contenido-post img {
+    max-width: 100%;
+    height: auto
+}
+#sky-scrapper-blogs {
+    border: none;
+    box-shadow: 0 0 10px -3px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#accordion-mas-info .panel{
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+@media(min-width:768px) {
+    #sky-scrapper-blogs {
+        width: 160px
+    }
+    #foto-bloguero {
+        width: 120px;
+        border-radius: 60px;
+    }
+}
+@media(min-width:992px) {
+    #sky-scrapper-blogs {
+        width: 210px
+    }
+}
+@media(min-width:1200px) {
+    #sky-scrapper-blogs {
+        width: 260px;
+        border: none;
+        box-shadow: 0 0 10px -3px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}

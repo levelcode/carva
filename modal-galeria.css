@@ -1,0 +1,29 @@
+#cuerpo-modal-imagenes .btn-modal-galeria{
+    background-image:none;
+}
+.modal{
+    background:rgba(0,0,0,0.6);
+}
+.modal .modal-content{
+    border-radius: 10px;
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+.modal .modal-header{
+    background: #016aab;
+    border: none;
+}
+.modal .modal-footer{
+    background: #373737;
+    border: none;
+}
+@media (min-width: 768px){
+    .modal .modal-dialog{
+        width: 60%;
+        height: auto;
+    }
+
+}
+/* Quitar CSS quemados al elemento .modal: tiene un padding de 15px.*/

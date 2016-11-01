@@ -1,0 +1,31 @@
+/*vie, 28 oct 2016 16:11:05 -0500*/
+.img-guia-de-proveedores {
+    max-height: 120px
+}
+.suscripciones {
+    list-style-image: url('/recursos/imagenes/plantilla/item.png');
+    width: 278px;
+    list-style-position: inside;
+    margin: 21px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -3px black;
+    padding: 20px;
+}
+.suscripciones li{
+    font-weight: bold;
+    font-size: 20px;
+}
+.redes-sociales img {
+    height: 24px;
+    width: 24px
+}
+.gen-fondo-gris{
+    text-align: center;
+}
+.contenedor-img-guia-proveedores{
+    width: 490px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px -3px black;
+    border-radius: 10px;
+    padding: 20px;
+}

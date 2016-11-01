@@ -440,3 +440,17 @@ Unificar alto cajas panel-default
 .panel-collapse .btn-default:hover {
 	transform: scale(1.2); 
 }
+
+/* Modal */
+
+.modal-header{
+	background: #016AAB;
+    color: white;
+    text-align: center;
+}
+@media (min-width: 768px){
+	.modal-content {
+		border-radius: 10px;
+		overflow: hidden;
+	}
+}

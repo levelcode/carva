@@ -39,8 +39,11 @@
 	border-left: 1px solid #ccc;
 	height: 36px;
 	/*margin-top: 30px;*/
-	color: gray;
-	font-weight: 400;
+}
+
+.gen-titulo-h1{
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .rotabanner-titulo{
@@ -66,7 +69,7 @@
 }
 /*
 .redondo-abajo-izq{
-	border-radius: 0 0 0 10px;
+	border-bottom-left-radius:20px
 }
 
 .redondo-abajo-der{
@@ -88,8 +91,8 @@
 }
 
 #contenedor-mediakit img{
-	width: 100%;
-    max-width: 230px;
+	/*width: 100%;*/
+    /*max-width: 230px;*/
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -115,6 +118,7 @@
 
 .contenedor-rotabanner{
 	margin-top:30px;
+	box-shadow: 0px 0px 
 }
 
 .contenedor-twitter .titulo-twitter{
@@ -148,6 +152,19 @@
     background-color: white;
 }
 
+#panel-areas{
+	min-height:auto;
+}
+
+#articulo-destacado img{
+	border:none;
+	box-shadow: 0 0 10px -3px black;
+	border-radius:10px;
+}
+#articulo-destacado .col-xs-6{
+	margin: 0px 10px 20px 0px;
+}
+
 @media  (min-width : 768px) {
 	.altura-rotabanner{
 		height: 235px;
@@ -176,7 +193,14 @@
 		
 		border: 1px solid #ccc;
 		border-radius: 5px 5px 5px 5px;
+		box-shadow: 0px 0px 10px -3px #aaa;
 	}
+}
+
+.gen-titulo-h1{
+	color: #154488;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -199,6 +223,5 @@
 		height:36px;
 	}
 }
-
 
 
